@@ -3,17 +3,20 @@ name = "spaceship-titanic"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Your Name",email = "you@example.com"}
+    {name = "Victoria Klyueva",email = "vika_klyueva@inbox.ru"}
 ]
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.12.1"
 dependencies = [
 ]
 
-[tool.poetry]
-packages = [{include = "spaceship_titanic", from = "src"}]
-
+[tool.poetry.dependencies]
+python = "3.12.1"
+scikit-learn = "^1.6.1"
+pandas = "^2.2.3 "
+numpy = "^1.9.0"
+catboost = "1.2.7"
 
 [build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
