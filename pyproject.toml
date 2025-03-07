@@ -8,14 +8,23 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.12.1"
 dependencies = [
+    "toml (>=0.10.2,<0.11.0)",
+    "joblib (>=1.4.2,<2.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "catboost (>=1.2.7,<2.0.0)"
 ]
+
+[tool.model.hyperparameters]
+n_estimators = 242
+learning_rate = 0.03936393479278138
+depth = 8
+l2_leaf_reg = 0.0021756837351462124
+random_strength = 0.06896444475131593
+bagging_temperature = 0.2760190266969499
+border_count = 161
 
 [tool.poetry.dependencies]
 python = "3.12.1"
-scikit-learn = "^1.6.1"
-pandas = "^2.2.3 "
-numpy = "^1.9.0"
-catboost = "1.2.7"
 
 [build-system]
 requires = ["poetry-core"]
