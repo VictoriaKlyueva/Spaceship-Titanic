@@ -212,6 +212,18 @@ unicode = ["unicodedata2 (>=15.1.0) ; python_version <= \"3.12\""]
 woff = ["brotli (>=1.0.1) ; platform_python_implementation == \"CPython\"", "brotlicffi (>=0.8.0) ; platform_python_implementation != \"CPython\"", "zopfli (>=0.1.4)"]
 
 [[package]]
+name = "gender-guesser"
+version = "0.4.0"
+description = "Get the gender from first name."
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "gender-guesser-0.4.0.tar.gz", hash = "sha256:1591c14592805ca7da06a46d5f7202511f7cb87547049a68dfccbeedb879f31b"},
+    {file = "gender_guesser-0.4.0-py2.py3-none-any.whl", hash = "sha256:7cb01ce5d8d43b94573498bc02c959b622872abd399622ca67d1b73ba6e7e222"},
+]
+
+[[package]]
 name = "graphviz"
 version = "0.20.3"
 description = "Simple Python interface for Graphviz"
@@ -812,4 +824,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = "3.12.1"
-content-hash = "44e674e71224f48672b5b2c857a33c80943c536c1a67abee0bee48240cf05a47"
+content-hash = "3060c56fe93e0a4f99931014b1d9a39fa02ef9995e4ddc1072c0560f1d07ad72"

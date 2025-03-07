@@ -1,9 +1,12 @@
-import logging
 import argparse
 from catboost import CatBoostClassifier
 import pandas as pd
 import joblib
+import os
+
+from spaceship_titanic.utils.data_transformation import process_features
 from spaceship_titanic.config import config_reader
+from spaceship_titanic.utils.logger import logger
 
 
 class MyClassifierModel:
@@ -13,28 +16,33 @@ class MyClassifierModel:
         self.model = CatBoostClassifier(**self.hyperparameters)
 
     def train(self, dataset_path):
-        logging.info(f"Loading dataset from {dataset_path}")
+        logger.info(f"Loading dataset from {dataset_path}")
         data = pd.read_csv(dataset_path)
+        data = process_features(data)
+
         X = data.drop(self.target, axis=1)
         y = data[self.target]
 
-        logging.info("Training model...")
+        logger.info("Training model...")
         self.model.fit(X, y)
 
-        logging.info("Saving model to ./data/model/")
-        joblib.dump(self.model, './data/model/model.pkl')
+        logger.info("Saving model to spaceship_titanic/data/model/")
+        model_path = "spaceship_titanic/data/model/model.pkl"
+        joblib.dump(self.model, model_path)
+        logger.info("Model saved successfully.")
 
     def predict(self, dataset_path):
-        logging.info(f"Loading dataset from {dataset_path}")
+        logger.info(f"Loading dataset from {dataset_path}")
         data = pd.read_csv(dataset_path)
+        data = process_features(data)
 
-        logging.info("Loading model from ./data/model/")
-        self.model = joblib.load('./data/model/model.pkl')
+        logger.info("Loading model from spaceship_titanic/data/model/")
+        self.model = joblib.load('spaceship_titanic/data/model/model.pkl')
 
-        logging.info("Making predictions...")
+        logger.info("Making predictions...")
         predictions = self.model.predict(data)
-        pd.DataFrame(predictions, columns=['predictions']).to_csv('./data/results.csv', index=False)
-        logging.info("Predictions saved to ./data/results.csv")
+        pd.DataFrame(predictions, columns=['predictions']).to_csv('spaceship_titanic/data/results.csv', index=False)
+        logger.info("Predictions saved to spaceship_titanic/data/results.csv")
 
 
 if __name__ == '__main__':

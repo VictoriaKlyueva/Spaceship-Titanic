@@ -3,6 +3,9 @@ from pathlib import Path
 
 
 def load_hyperparameters_from_poetry():
+    """
+        Получение гиперпараметров модели из pyproject.toml
+    """
     # Путь к pyproject.toml
     pyproject_path = Path(__file__).parent.parent.parent / "pyproject.toml"
 
