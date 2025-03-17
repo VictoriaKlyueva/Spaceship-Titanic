@@ -1,16 +1,16 @@
-# spaceship_titanic/utils/logger.py
 import logging
 from pathlib import Path
-from logging.handlers import RotatingFileHandler
 
 
 def setup_logging():
     """
-    Configure logger to wrtite into file and console
+    Configure logger to write into file and console.
     """
-    log_dir = Path("spaceship_titanic/data")
+    # Create logs directory if it doesn't exist
+    log_dir = Path("./data")
     log_dir.mkdir(parents=True, exist_ok=True)
 
+    # Create a logger
     logger = logging.getLogger()
     logger.setLevel(logging.INFO)
 
@@ -20,9 +20,16 @@ def setup_logging():
         datefmt="%Y-%m-%d %H:%M:%S"
     )
 
+    # Console handler
     console_handler = logging.StreamHandler()
     console_handler.setFormatter(formatter)
     logger.addHandler(console_handler)
+
+    # File handler
+    log_file = log_dir / "log_file.log"
+    file_handler = logging.FileHandler(log_file)
+    file_handler.setFormatter(formatter)
+    logger.addHandler(file_handler)
 
     return logger
 

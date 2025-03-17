@@ -1,0 +1,7 @@
+2025-03-18 01:52:47 - INFO - Loading dataset from ./data/train.csv
+2025-03-18 01:52:47 - INFO - Processing dataset features
+2025-03-18 01:52:47 - INFO - Generating new features
+2025-03-18 01:52:47 - INFO - Replacing NaNs in the dataset
+2025-03-18 01:52:48 - INFO - Training model...
+2025-03-18 01:53:00 - INFO - Saving model
+2025-03-18 01:53:00 - INFO - Model saved successfully.
