@@ -2,7 +2,6 @@ import argparse
 from catboost import CatBoostClassifier
 import pandas as pd
 import joblib
-import os
 
 from spaceship_titanic.utils.data_transformation import process_features
 from spaceship_titanic.config import config_reader
@@ -26,30 +25,48 @@ class MyClassifierModel:
         logger.info("Training model...")
         self.model.fit(X, y)
 
-        logger.info("Saving model to spaceship_titanic/data/model/")
-        model_path = "spaceship_titanic/data/model/model.pkl"
-        joblib.dump(self.model, model_path)
-        logger.info("Model saved successfully.")
+        # Save model
+        logger.info("Saving model")
+        model_path = "./data/model/model.pkl"
+        try:
+            joblib.dump(self.model, model_path)
+            logger.info("Model saved successfully.")
+        except Exception as e:
+            logger.info(f"Error occurred during the saving: {e}")
+            raise
 
     def predict(self, dataset_path):
         logger.info(f"Loading dataset from {dataset_path}")
         data = pd.read_csv(dataset_path)
+
+        result = data[['PassengerId']].copy()
         data = process_features(data)
 
-        logger.info("Loading model from spaceship_titanic/data/model/")
-        self.model = joblib.load('spaceship_titanic/data/model/model.pkl')
+        logger.info("Loading model")
+        self.model = joblib.load('./data/model/model.pkl')
 
+        # Save prediction
         logger.info("Making predictions...")
         predictions = self.model.predict(data)
-        pd.DataFrame(predictions, columns=['predictions']).to_csv('spaceship_titanic/data/results.csv', index=False)
-        logger.info("Predictions saved to spaceship_titanic/data/results.csv")
+
+        result['Transported'] = predictions
+
+        result.to_csv('data/results.csv', index=False)
+        logger.info("Predictions saved")
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('command', choices=['train', 'predict'])
-    parser.add_argument('--dataset', required=True)
+    parser.add_argument('--dataset', required=False)
+
     args = parser.parse_args()
+
+    # Set default paths
+    if args.command == 'train' and args.dataset is None:
+        args.dataset = "./data/train.csv"
+    elif args.command == 'predict' and args.dataset is None:
+        args.dataset = "./data/test.csv"
 
     model = MyClassifierModel()
     if args.command == 'train':
