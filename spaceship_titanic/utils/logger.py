@@ -4,7 +4,7 @@ from pathlib import Path
 
 def setup_logging():
     """
-    Configure logger to write into file and console.
+        Configure logger to write into file and console.
     """
     # Create logs directory if it doesn't exist
     log_dir = Path("./data")
