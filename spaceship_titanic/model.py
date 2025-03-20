@@ -83,6 +83,14 @@ class MyClassifierModel:
             logger.error(f"Error occurred while saving: {e}")
             return
 
+        # Upload model weights to ClearML
+        logger.info("Uploading model weights to ClearML")
+        try:
+            task.upload_artifact(name='model_weights', artifact_object=MODEL_SAVE_PATH)
+            logger.info("Model weights uploaded to ClearML")
+        except Exception as e:
+            logger.error(f"Error occurred while uploading model weights: {e}")
+
         task.close()
 
     def predict(self, dataset_path):
@@ -124,6 +132,10 @@ class MyClassifierModel:
         result['Transported'] = predictions
 
         result.to_csv('data/results.csv', index=False)
+
+        # Upload prediction as artifact
+        task.upload_artifact(name='submission', artifact_object='data/results.csv')
+
         logger.info("Predictions saved")
 
         task.close()

@@ -259,3 +259,29 @@
 2025-03-21 06:26:22 - INFO - Training model...
 2025-03-21 06:26:46 - INFO - Saving model
 2025-03-21 06:26:46 - INFO - Model saved successfully.
+2025-03-21 06:41:16 - INFO - Hyperparameters loaded from ClearML
+2025-03-21 06:41:17 - INFO - Loading dataset from ./data/train.csv
+2025-03-21 06:41:17 - INFO - Processing dataset features
+2025-03-21 06:41:17 - INFO - Generating new features
+2025-03-21 06:41:17 - INFO - Replacing NaNs in the dataset
+2025-03-21 06:41:17 - INFO - Training model...
+2025-03-21 06:41:41 - INFO - Saving model
+2025-03-21 06:41:41 - INFO - Model saved successfully.
+2025-03-21 06:41:41 - INFO - Uploading model weights to ClearML
+2025-03-21 06:41:41 - INFO - Model weights uploaded to ClearML successfully.
+2025-03-21 06:45:11 - INFO - Hyperparameters loaded from ClearML
+2025-03-21 06:45:11 - INFO - Loading dataset from ./data/test.csv
+2025-03-21 06:45:11 - INFO - Processing dataset features
+2025-03-21 06:45:11 - INFO - Generating new features
+2025-03-21 06:45:11 - INFO - Replacing NaNs in the dataset
+2025-03-21 06:45:11 - INFO - Loading model
+2025-03-21 06:45:11 - INFO - Making predictions...
+2025-03-21 06:45:12 - INFO - Predictions saved
+2025-03-21 06:49:41 - INFO - Hyperparameters loaded from ClearML
+2025-03-21 06:49:42 - INFO - Loading dataset from ./data/test.csv
+2025-03-21 06:49:42 - INFO - Processing dataset features
+2025-03-21 06:49:42 - INFO - Generating new features
+2025-03-21 06:49:42 - INFO - Replacing NaNs in the dataset
+2025-03-21 06:49:42 - INFO - Loading model
+2025-03-21 06:49:42 - INFO - Making predictions...
+2025-03-21 06:49:42 - INFO - Predictions saved
