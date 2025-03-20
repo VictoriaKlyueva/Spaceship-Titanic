@@ -16,8 +16,9 @@ SEED = 42
 # Columns
 TARGET_COLUMN = "Transported"
 CATEGORICAL_FEATURES = [
-    'HomePlanet', 'CryoSleep', 'Destination', 'VIP', 'Deck', 'Side', 'PaidExtra', 'IsAlone',
-    'IsTravelWithFamily', 'Gender'
+    'HomePlanet', 'CryoSleep', 'Destination',
+    'VIP', 'Deck', 'Side', 'PaidExtra',
+    'IsAlone', 'IsTravelWithFamily', 'Gender'
 ]
 NUMERICAL_FEATURES = [
     'Age', 'RoomService', 'FoodCourt', 'ShoppingMall', 'Spa', 'VRDeck', 'PassengerGroup',

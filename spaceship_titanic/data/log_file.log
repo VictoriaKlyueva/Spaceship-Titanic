@@ -189,3 +189,73 @@
 2025-03-21 05:47:31 - INFO - Processing dataset features
 2025-03-21 05:47:31 - INFO - Generating new features
 2025-03-21 05:47:31 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:55:08 - INFO - Loading dataset from ./data/train.csv
+2025-03-21 05:55:09 - INFO - Processing dataset features
+2025-03-21 05:55:09 - INFO - Generating new features
+2025-03-21 05:55:09 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:55:09 - INFO - Training model...
+2025-03-21 05:55:23 - INFO - Saving model
+2025-03-21 05:55:24 - INFO - Model saved successfully.
+2025-03-21 05:57:39 - INFO - Load hyperparameters from ClearML
+2025-03-21 05:57:39 - INFO - Loading dataset from ./data/train.csv
+2025-03-21 05:57:39 - INFO - Processing dataset features
+2025-03-21 05:57:39 - INFO - Generating new features
+2025-03-21 05:57:40 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:57:40 - INFO - Training model...
+2025-03-21 06:01:27 - INFO - Loading dataset from ./data/train.csv
+2025-03-21 06:01:27 - INFO - Processing dataset features
+2025-03-21 06:01:27 - INFO - Generating new features
+2025-03-21 06:01:28 - INFO - Replacing NaNs in the dataset
+2025-03-21 06:01:28 - INFO - Training model...
+2025-03-21 06:02:15 - INFO - Hyperparameters loaded from ClearML
+2025-03-21 06:02:15 - INFO - Loading dataset from ./data/train.csv
+2025-03-21 06:02:15 - INFO - Processing dataset features
+2025-03-21 06:02:15 - INFO - Generating new features
+2025-03-21 06:02:16 - INFO - Replacing NaNs in the dataset
+2025-03-21 06:02:16 - INFO - Training model...
+2025-03-21 06:06:54 - INFO - Hyperparameters loaded from ClearML
+2025-03-21 06:06:55 - INFO - Loading dataset from ./data/train.csv
+2025-03-21 06:06:55 - INFO - Processing dataset features
+2025-03-21 06:06:55 - INFO - Generating new features
+2025-03-21 06:06:55 - INFO - Replacing NaNs in the dataset
+2025-03-21 06:06:55 - INFO - Training model...
+2025-03-21 06:09:35 - INFO - Hyperparameters loaded from ClearML
+2025-03-21 06:09:36 - INFO - Loading dataset from ./data/train.csv
+2025-03-21 06:09:36 - INFO - Processing dataset features
+2025-03-21 06:09:36 - INFO - Generating new features
+2025-03-21 06:09:36 - INFO - Replacing NaNs in the dataset
+2025-03-21 06:09:36 - INFO - Training model...
+2025-03-21 06:15:01 - INFO - Hyperparameters loaded from ClearML
+2025-03-21 06:15:01 - INFO - Loading dataset from ./data/train.csv
+2025-03-21 06:15:01 - INFO - Processing dataset features
+2025-03-21 06:15:01 - INFO - Generating new features
+2025-03-21 06:15:02 - INFO - Replacing NaNs in the dataset
+2025-03-21 06:15:02 - INFO - Model params: {'n_estimators': 674, 'learning_rate': 0.02603125283239717, 'depth': 5, 'l2_leaf_reg': 0.0013769622756719018, 'random_strength': 0.006236408922487675, 'bagging_temperature': 0.16968031324712818, 'border_count': 109}
+2025-03-21 06:15:02 - INFO - Training model...
+2025-03-21 06:16:33 - INFO - Hyperparameters loaded from ClearML
+2025-03-21 06:16:33 - INFO - Loading dataset from ./data/train.csv
+2025-03-21 06:16:33 - INFO - Processing dataset features
+2025-03-21 06:16:33 - INFO - Generating new features
+2025-03-21 06:16:34 - INFO - Replacing NaNs in the dataset
+2025-03-21 06:17:53 - INFO - Hyperparameters loaded from ClearML
+2025-03-21 06:17:53 - INFO - Loading dataset from ./data/train.csv
+2025-03-21 06:17:53 - INFO - Processing dataset features
+2025-03-21 06:17:53 - INFO - Generating new features
+2025-03-21 06:17:54 - INFO - Replacing NaNs in the dataset
+2025-03-21 06:17:54 - INFO - Training model...
+2025-03-21 06:22:15 - WARNING - Failed to load hyperparameters from ClearML, params from poetry config will be used: 'str' object does not support item assignment
+2025-03-21 06:22:15 - INFO - Loading dataset from ./data/train.csv
+2025-03-21 06:22:15 - INFO - Processing dataset features
+2025-03-21 06:22:15 - INFO - Generating new features
+2025-03-21 06:22:16 - INFO - Replacing NaNs in the dataset
+2025-03-21 06:22:16 - INFO - Training model...
+2025-03-21 06:22:30 - INFO - Saving model
+2025-03-21 06:22:30 - INFO - Model saved successfully.
+2025-03-21 06:26:21 - INFO - Hyperparameters loaded from ClearML
+2025-03-21 06:26:21 - INFO - Loading dataset from ./data/train.csv
+2025-03-21 06:26:21 - INFO - Processing dataset features
+2025-03-21 06:26:21 - INFO - Generating new features
+2025-03-21 06:26:22 - INFO - Replacing NaNs in the dataset
+2025-03-21 06:26:22 - INFO - Training model...
+2025-03-21 06:26:46 - INFO - Saving model
+2025-03-21 06:26:46 - INFO - Model saved successfully.

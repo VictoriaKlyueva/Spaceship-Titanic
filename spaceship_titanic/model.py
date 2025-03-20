@@ -24,10 +24,11 @@ from spaceship_titanic.config.constants import (
 class MyClassifierModel:
     def __init__(self, hyperparameters=None):
         self.target = ['Transported']
-        self.hyperparameters = hyperparameters if hyperparameters else config_reader.load_hyperparameters_from_poetry()
+        self.hyperparameters = hyperparameters if hyperparameters else self._load_best_hyperparameters()
         self.model = CatBoostClassifier(**self.hyperparameters)
 
-    def _load_best_hyperparameters(self):
+    @staticmethod
+    def _load_best_hyperparameters():
         """
             Load best params from ClearML or use default values from poetry config if it absent
         """
@@ -35,7 +36,15 @@ class MyClassifierModel:
         try:
             task = Task.get_task(project_name='Spaceship Titanic', task_name='Hyperparameter tuning')
             best_params = task.artifacts['best_hyperparameters'].get()
-            return json.loads(best_params)
+
+            best_params = json.loads(best_params)
+
+            # Configure some other params
+            best_params['cat_features'] = CATEGORICAL_FEATURES
+            best_params['random_state'] = SEED
+
+            logger.info("Hyperparameters loaded from ClearML")
+            return best_params
         except Exception as e:
             logger.warning(f"Failed to load hyperparameters from ClearML, params from poetry config will be used: {e}")
             return config_reader.load_hyperparameters_from_poetry()
@@ -58,8 +67,8 @@ class MyClassifierModel:
             logger.error(f"An error occurred while loading the dataset: {e}")
             return
 
-        X = data.drop(self.target, axis=1)
-        y = data[self.target]
+        X = data.drop(['Transported'], axis=1)
+        y = data['Transported']
 
         # Train model
         logger.info("Training model...")
