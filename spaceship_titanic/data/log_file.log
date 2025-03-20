@@ -5,3 +5,187 @@
 2025-03-18 01:52:48 - INFO - Training model...
 2025-03-18 01:53:00 - INFO - Saving model
 2025-03-18 01:53:00 - INFO - Model saved successfully.
+2025-03-21 04:32:46 - INFO - Loading dataset from ./data/train.csv
+2025-03-21 04:32:46 - INFO - Processing dataset features
+2025-03-21 04:32:46 - INFO - Generating new features
+2025-03-21 04:32:46 - INFO - Replacing NaNs in the dataset
+2025-03-21 04:32:46 - INFO - Training model...
+2025-03-21 04:33:00 - INFO - Saving model
+2025-03-21 04:33:00 - INFO - Model saved successfully.
+2025-03-21 04:35:46 - INFO - Loading dataset from ./data/test.csv
+2025-03-21 04:35:46 - INFO - Processing dataset features
+2025-03-21 04:35:46 - INFO - Generating new features
+2025-03-21 04:35:46 - INFO - Replacing NaNs in the dataset
+2025-03-21 04:35:46 - INFO - Loading model
+2025-03-21 04:35:47 - INFO - Making predictions...
+2025-03-21 04:35:47 - INFO - Predictions saved
+2025-03-21 05:00:59 - INFO - Loading dataset from ./data/train.csv
+2025-03-21 05:00:59 - INFO - Processing dataset features
+2025-03-21 05:00:59 - INFO - Generating new features
+2025-03-21 05:01:00 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:01:00 - INFO - Training model...
+2025-03-21 05:01:13 - INFO - Saving model
+2025-03-21 05:01:13 - INFO - Model saved successfully.
+2025-03-21 05:03:56 - INFO - Loading dataset from ./data/train.csv
+2025-03-21 05:03:56 - INFO - Processing dataset features
+2025-03-21 05:03:56 - INFO - Generating new features
+2025-03-21 05:03:57 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:03:57 - INFO - Training model...
+2025-03-21 05:04:11 - INFO - Saving model
+2025-03-21 05:04:12 - INFO - Model saved successfully.
+2025-03-21 05:08:54 - INFO - Processing dataset features
+2025-03-21 05:08:54 - INFO - Generating new features
+2025-03-21 05:08:54 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:09:15 - INFO - Processing dataset features
+2025-03-21 05:09:15 - INFO - Generating new features
+2025-03-21 05:09:16 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:09:31 - INFO - Processing dataset features
+2025-03-21 05:09:31 - INFO - Generating new features
+2025-03-21 05:09:31 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:10:22 - INFO - Processing dataset features
+2025-03-21 05:10:22 - INFO - Generating new features
+2025-03-21 05:10:22 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:11:22 - INFO - Processing dataset features
+2025-03-21 05:11:22 - INFO - Generating new features
+2025-03-21 05:11:22 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:11:50 - INFO - Processing dataset features
+2025-03-21 05:11:50 - INFO - Generating new features
+2025-03-21 05:11:51 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:12:54 - INFO - Processing dataset features
+2025-03-21 05:12:54 - INFO - Generating new features
+2025-03-21 05:12:54 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:13:50 - INFO - Processing dataset features
+2025-03-21 05:13:51 - INFO - Generating new features
+2025-03-21 05:13:51 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:14:27 - INFO - Processing dataset features
+2025-03-21 05:14:27 - INFO - Generating new features
+2025-03-21 05:14:27 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:15:07 - INFO - Processing dataset features
+2025-03-21 05:15:07 - INFO - Generating new features
+2025-03-21 05:15:08 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:15:25 - INFO - Processing dataset features
+2025-03-21 05:15:25 - INFO - Generating new features
+2025-03-21 05:15:25 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:15:56 - INFO - Processing dataset features
+2025-03-21 05:15:56 - INFO - Generating new features
+2025-03-21 05:15:57 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:16:27 - INFO - Processing dataset features
+2025-03-21 05:16:27 - INFO - Generating new features
+2025-03-21 05:16:27 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:16:55 - INFO - Processing dataset features
+2025-03-21 05:16:55 - INFO - Generating new features
+2025-03-21 05:16:55 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:17:18 - INFO - Processing dataset features
+2025-03-21 05:17:18 - INFO - Generating new features
+2025-03-21 05:17:18 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:17:54 - INFO - Processing dataset features
+2025-03-21 05:17:54 - INFO - Generating new features
+2025-03-21 05:17:55 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:18:12 - INFO - Processing dataset features
+2025-03-21 05:18:12 - INFO - Generating new features
+2025-03-21 05:18:12 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:18:53 - INFO - Processing dataset features
+2025-03-21 05:18:53 - INFO - Generating new features
+2025-03-21 05:18:54 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:19:36 - INFO - Processing dataset features
+2025-03-21 05:19:36 - INFO - Generating new features
+2025-03-21 05:19:36 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:20:05 - INFO - Processing dataset features
+2025-03-21 05:20:05 - INFO - Generating new features
+2025-03-21 05:20:05 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:20:14 - INFO - Processing dataset features
+2025-03-21 05:20:14 - INFO - Generating new features
+2025-03-21 05:20:14 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:26:58 - INFO - Processing dataset features
+2025-03-21 05:26:58 - INFO - Generating new features
+2025-03-21 05:26:59 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:27:37 - INFO - Processing dataset features
+2025-03-21 05:27:37 - INFO - Generating new features
+2025-03-21 05:27:37 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:27:50 - INFO - Processing dataset features
+2025-03-21 05:27:50 - INFO - Generating new features
+2025-03-21 05:27:50 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:28:14 - INFO - Processing dataset features
+2025-03-21 05:28:14 - INFO - Generating new features
+2025-03-21 05:28:14 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:28:41 - INFO - Processing dataset features
+2025-03-21 05:28:41 - INFO - Generating new features
+2025-03-21 05:28:41 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:29:12 - INFO - Processing dataset features
+2025-03-21 05:29:12 - INFO - Generating new features
+2025-03-21 05:29:13 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:29:17 - INFO - Processing dataset features
+2025-03-21 05:29:17 - INFO - Generating new features
+2025-03-21 05:29:18 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:29:55 - INFO - Processing dataset features
+2025-03-21 05:29:55 - INFO - Generating new features
+2025-03-21 05:29:56 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:30:04 - INFO - Processing dataset features
+2025-03-21 05:30:04 - INFO - Generating new features
+2025-03-21 05:30:04 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:30:12 - INFO - Processing dataset features
+2025-03-21 05:30:12 - INFO - Generating new features
+2025-03-21 05:30:12 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:34:57 - INFO - Processing dataset features
+2025-03-21 05:34:57 - INFO - Generating new features
+2025-03-21 05:34:58 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:35:12 - INFO - Processing dataset features
+2025-03-21 05:35:12 - INFO - Generating new features
+2025-03-21 05:35:12 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:36:04 - INFO - Processing dataset features
+2025-03-21 05:36:04 - INFO - Generating new features
+2025-03-21 05:36:04 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:36:14 - INFO - Processing dataset features
+2025-03-21 05:36:14 - INFO - Generating new features
+2025-03-21 05:36:15 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:36:49 - INFO - Processing dataset features
+2025-03-21 05:36:49 - INFO - Generating new features
+2025-03-21 05:36:50 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:37:40 - INFO - Processing dataset features
+2025-03-21 05:37:40 - INFO - Generating new features
+2025-03-21 05:37:41 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:38:41 - INFO - Processing dataset features
+2025-03-21 05:38:41 - INFO - Generating new features
+2025-03-21 05:38:41 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:39:13 - INFO - Processing dataset features
+2025-03-21 05:39:13 - INFO - Generating new features
+2025-03-21 05:39:13 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:39:51 - INFO - Processing dataset features
+2025-03-21 05:39:51 - INFO - Generating new features
+2025-03-21 05:39:52 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:40:25 - INFO - Processing dataset features
+2025-03-21 05:40:25 - INFO - Generating new features
+2025-03-21 05:40:25 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:40:42 - INFO - Processing dataset features
+2025-03-21 05:40:42 - INFO - Generating new features
+2025-03-21 05:40:42 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:44:16 - INFO - Processing dataset features
+2025-03-21 05:44:16 - INFO - Generating new features
+2025-03-21 05:44:16 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:44:56 - INFO - Processing dataset features
+2025-03-21 05:44:56 - INFO - Generating new features
+2025-03-21 05:44:57 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:45:21 - INFO - Processing dataset features
+2025-03-21 05:45:21 - INFO - Generating new features
+2025-03-21 05:45:22 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:45:44 - INFO - Processing dataset features
+2025-03-21 05:45:44 - INFO - Generating new features
+2025-03-21 05:45:45 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:46:13 - INFO - Processing dataset features
+2025-03-21 05:46:13 - INFO - Generating new features
+2025-03-21 05:46:14 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:46:51 - INFO - Processing dataset features
+2025-03-21 05:46:51 - INFO - Generating new features
+2025-03-21 05:46:52 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:46:57 - INFO - Processing dataset features
+2025-03-21 05:46:57 - INFO - Generating new features
+2025-03-21 05:46:57 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:47:17 - INFO - Processing dataset features
+2025-03-21 05:47:17 - INFO - Generating new features
+2025-03-21 05:47:17 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:47:22 - INFO - Processing dataset features
+2025-03-21 05:47:22 - INFO - Generating new features
+2025-03-21 05:47:22 - INFO - Replacing NaNs in the dataset
+2025-03-21 05:47:31 - INFO - Processing dataset features
+2025-03-21 05:47:31 - INFO - Generating new features
+2025-03-21 05:47:31 - INFO - Replacing NaNs in the dataset
