@@ -6,13 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5ec05ccc-ed5a-497a-8c9a-491ef3855fc0" name="Changes" comment="Train and predict CLI fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spaceship_titanic/catboost_info/catboost_training.json" beforeDir="false" afterPath="$PROJECT_DIR$/spaceship_titanic/catboost_info/catboost_training.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spaceship_titanic/catboost_info/learn/events.out.tfevents" beforeDir="false" afterPath="$PROJECT_DIR$/spaceship_titanic/catboost_info/learn/events.out.tfevents" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spaceship_titanic/catboost_info/time_left.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/spaceship_titanic/catboost_info/time_left.tsv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spaceship_titanic/data/log_file.log" beforeDir="false" afterPath="$PROJECT_DIR$/spaceship_titanic/data/log_file.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spaceship_titanic/data/model/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/spaceship_titanic/data/model/model.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spaceship_titanic/data/results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/spaceship_titanic/data/results.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spaceship_titanic/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/spaceship_titanic/model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +91,7 @@
       <workItem from="1742315283782" duration="5546000" />
       <workItem from="1742323492662" duration="2705000" />
       <workItem from="1742374114351" duration="526000" />
-      <workItem from="1742394903807" duration="15636000" />
+      <workItem from="1742394903807" duration="16334000" />
     </task>
     <task id="LOCAL-00001" summary="Train and predict CLI fix">
       <option name="closed" value="true" />

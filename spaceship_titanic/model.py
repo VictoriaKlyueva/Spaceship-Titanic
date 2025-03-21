@@ -67,6 +67,14 @@ class MyClassifierModel:
             logger.error(f"An error occurred while loading the dataset: {e}")
             return
 
+        # Upload processed dataset to ClearML
+        logger.info("Uploading processed dataset to ClearML")
+        try:
+            task.upload_artifact(name='processed_dataset', artifact_object=data.to_csv(index=False))
+            logger.info("Processed dataset uploaded")
+        except Exception as e:
+            logger.error(f"Error occurred while uploading dataset: {e}")
+
         X = data.drop(['Transported'], axis=1)
         y = data['Transported']
 
