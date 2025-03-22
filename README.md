@@ -52,8 +52,8 @@ It contains code for tuning, training and inference the model using the CLI and 
     <td>Training</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/clearml/clearml/blob/master/docs/experiment_manager.gif?raw=true" width="100%"></a></td>
-    <td><img src="https://github.com/clearml/clearml/blob/master/docs/datasets.gif?raw=true" width="100%"></a></td>
+    <td><img src="https://github.com/VictoriaKlyueva/Spaceship-Titanic/blob/refactoring/images/Tuning.png"></td>
+    <td><img src="https://github.com/VictoriaKlyueva/Spaceship-Titanic/blob/refactoring/images/Training.png"></td>
   </tr>
   <tr>
     <td colspan="2" height="24px"></td>
@@ -63,8 +63,8 @@ It contains code for tuning, training and inference the model using the CLI and 
     <td>Processed dataset</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/clearml/clearml/blob/master/docs/orchestration.gif?raw=true" width="100%"></a></td>
-    <td><img src="https://github.com/clearml/clearml/blob/master/docs/pipelines.gif?raw=true" width="100%"></a></td>
+    <td><img src="https://github.com/VictoriaKlyueva/Spaceship-Titanic/blob/refactoring/images/Inference.png"></td>
+    <td><img src="https://github.com/VictoriaKlyueva/Spaceship-Titanic/blob/refactoring/images/Processed%20dataset.png"></td>
   </tr>
 </tbody>
 </table>
