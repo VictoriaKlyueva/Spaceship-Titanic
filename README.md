@@ -69,5 +69,45 @@ It contains code for tuning, training and inference the model using the CLI and 
 </tbody>
 </table>
 
+### How to run with CLI
+
+1. Clone repository and move to project path
+```bash
+git clone https://github.com/VictoriaKlyueva/Spaceship-Titanic.git
+cd spaceship_titanic
+```
+
+2. Install poetry
+```bash
+pip install poetry
+```
+
+3. Install project packages
+```bash
+poetry install --no-interaction --no-ansi
+```
+
+4. Configure your ClearML server running on `http://localhost/`
+
+5. Follow the instructions and provide your credentials
+```bash
+clearml-init
+```
+
+6. Tune model
+```bash
+python model.py tune [--dataset=/path/to/train/dataset]
+```
+
+7. Train model
+```bash
+python model.py train [--dataset=/path/to/train/dataset]
+```
+
+8. Make predictions
+```bash
+python model.py predict [--dataset=/path/to/evaluation/dataset]
+```
+
 ## Author
 - `Klyueva Victoria, 972302`
