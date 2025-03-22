@@ -4,6 +4,7 @@ catboost_info/
 
 # Files
 results.csv
+workspace.xml
 *.log
 
 # Temp files
