@@ -5,8 +5,7 @@ from catboost import CatBoostClassifier
 from spaceship_titanic.tuning.model_tuning import ModelTuner
 import pandas as pd
 import joblib
-import tempfile
-from clearml import Task, StorageManager, Dataset
+from clearml import Task, Dataset
 from spaceship_titanic.utils.data_transformation import process_features
 from spaceship_titanic.config import config_reader
 from spaceship_titanic.utils.logger import logger
