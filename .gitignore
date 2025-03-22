@@ -1,0 +1,13 @@
+# Folders
+dist/
+catboost_info/
+
+# Files
+results.csv
+*.log
+
+# Temp files
+*.tmp
+*.swp
+*.swo
+.DS_Store
