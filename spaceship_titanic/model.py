@@ -76,7 +76,7 @@ class MyClassifierModel:
                 dataset_version="1.0.0"
             )
 
-            processed_dataset_path = '/data/processed_dataset.csv'
+            processed_dataset_path = './data/processed_dataset.csv'
             data.to_csv(processed_dataset_path, index=False)
             dataset.add_files(processed_dataset_path)
 
